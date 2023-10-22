@@ -11,7 +11,6 @@ public static class MergeSort
     {
         if (first >= last)
             return;
-
         var mid = (first + last) / 2;
         // recursively call the _Sort function until the list is broken it lengths of 1
         _Sort(data, first, mid);
